@@ -148,7 +148,6 @@ The best-performing configurations were selected using ROC-AUC as the optimizati
 * Matplotlib
 * Seaborn
 * Scikit-learn
-* LightGBM
 
 ---
 
