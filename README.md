@@ -1,21 +1,15 @@
-🛡️ Fraud Detection Using Machine Learning
-Overview
+**🛡️ Fraud Detection Using Machine Learning**
+**Overview**
+Financial fraud costs banks and fintech companies millions of dollars each year. Traditional rule-based detection systems often struggle to identify new fraud patterns and generate large numbers of false alerts. This project develops and evaluates multiple machine learning models capable of identifying fraudulent transactions while minimizing false positives and false negatives. The objective is to support fraud analysts by automatically prioritizing high-risk transactions for investigation.
 
-Financial fraud costs banks and fintech companies millions of dollars each year. Traditional rule-based detection systems often struggle to identify new fraud patterns and generate large numbers of false alerts.
-
-This project develops and evaluates multiple machine learning models capable of identifying fraudulent transactions while minimizing false positives and false negatives. The objective is to support fraud analysts by automatically prioritizing high-risk transactions for investigation.
-
-Business Problem
-
+**Business Problem**
 Manual fraud detection is:
-
 Time-consuming
 Costly
 Difficult to scale
 Unable to detect evolving fraud patterns quickly
 
 A predictive fraud detection model enables financial institutions to:
-
 Detect suspicious transactions in real time
 Reduce financial losses
 Improve customer trust
@@ -32,17 +26,15 @@ Dataset
 
 The dataset contains transaction-level information used to classify whether a transaction is fraudulent.
 
-Target Variable
+**Target Variable**
 is_fraud
 0 = Legitimate Transaction
 1 = Fraudulent Transaction
 
 The dataset is imbalanced, with legitimate transactions significantly outnumbering fraudulent ones. Because of this, evaluation focuses on Precision, Recall, F1-score, and ROC-AUC instead of relying solely on accuracy.
 
-Exploratory Data Analysis
-
+**Exploratory Data Analysis**
 The analysis included:
-
 Dataset overview
 Summary statistics
 Missing value analysis
@@ -58,7 +50,7 @@ Previous Fraud Flag is also an important predictor.
 Duplicate observations were removed to prevent model bias.
 Data Preprocessing
 
-The preprocessing pipeline included:
+**The preprocessing pipeline included:**
 
 Removal of duplicate records
 Conversion of object columns into numeric values
