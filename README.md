@@ -185,17 +185,6 @@ Potential enhancements include:
 * Used cross-validation and hyperparameter tuning to improve model robustness.
 * Focused on business-relevant metrics appropriate for highly imbalanced datasets.
 
----
 
-## Author
 
-**Samuel Bentum**
-
-Data Analyst | Credit Risk & Portfolio Analytics
-
-**Skills:** SQL • Python • Machine Learning • Power BI • Excel • Data Visualization
-
-LinkedIn: *Add your LinkedIn URL*
-
-GitHub: *Add your GitHub URL*
 
